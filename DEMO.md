@@ -26,7 +26,7 @@ The 2D view is http://localhost:4600/lite.
 To run it hidden in the background instead:
 
 ```powershell
-Start-Process node -ArgumentList 'bin/agent-office.js','--home',$h,'--projects',$h,'--port','4600','--password','demo','--no-open' `
+Start-Process node -ArgumentList 'C:\Code\agent-office\bin\agent-office.js','--home',$h,'--projects',$h,'--port','4600','--password','demo','--no-open' `
   -WorkingDirectory C:\Code\agent-office -WindowStyle Hidden `
   -RedirectStandardOutput "$h\server.out.log" -RedirectStandardError "$h\server.err.log"
 ```
